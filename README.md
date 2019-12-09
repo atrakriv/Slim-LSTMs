@@ -6,10 +6,10 @@ LSTM uses gating mechanism to control the signal flow. It possess three gating s
 As can be seen, Setting learning rate equal to 0.0001 results in an almost fluctuation-free profile with close results to standard LSTM.
 
 
-![alt text](https://raw.githubusercontent.com/atrakriv/Slim-LSTMs/master/i1sig0001.png “Variant LSTMs comparison on IMDB”)
+![comparison](https://raw.githubusercontent.com/atrakriv/Slim-LSTMs/master/i1sig0001.png)
 
 
-For more information please refer to 
+For more information please refer to  
 [Simplified Long Short-term Memory Recurrent Neural Networks: part I](https://arxiv.org/abs/1707.04619)  
 [Simplified Long Short-term Memory Recurrent Neural Networks: part II](https://arxiv.org/abs/1701.05923)  
 [Simplified Long Short-term Memory Recurrent Neural Networks: part III](https://arxiv.org/abs/1707.04626).
