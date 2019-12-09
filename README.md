@@ -6,32 +6,32 @@ LSTM uses gating mechanism to control the signal flow. It possess three gating s
 As can be seen, Setting learning rate equal to 0.0001 results in an almost fluctuation-free profile with close results to standard LSTM.
 
 
-![alt text](i1sig0001.png “IMDB-varian LSTMs comparison”)
+![alt text](https://raw.githubusercontent.com/atrakriv/Slim-LSTMs/master/i1sig0001.png “Variant LSTMs comparison on IMDB”)
 
 
 For more information please refer to 
-[Simplified Long Short-term Memory Recurrent Neural Networks: part I](https://arxiv.org/abs/1707.04619)
-[Simplified Long Short-term Memory Recurrent Neural Networks: part II](https://arxiv.org/abs/1701.05923)
+[Simplified Long Short-term Memory Recurrent Neural Networks: part I](https://arxiv.org/abs/1707.04619)  
+[Simplified Long Short-term Memory Recurrent Neural Networks: part II](https://arxiv.org/abs/1701.05923)  
 [Simplified Long Short-term Memory Recurrent Neural Networks: part III](https://arxiv.org/abs/1707.04626).
 
 
 
 # Requirements
-python 3.6
-TensorFlow 1.13.1
-Keras 2.2.4
+python 3.6  
+TensorFlow 1.13.1  
+Keras 2.2.4  
 
 # Usage
-python slim22-driver.py
-You can set corresponding parameters in config.py or pass them as arguments: 
-python slim22-driver.py LSTM4 32 100 0.0001
+python slim22-driver.py  
+You can set corresponding parameters in config.py or pass them as arguments:  
+python slim22-driver.py LSTM4 32 100 0.0001  
 in which LSTM4 is the model we wanted to run, 32 is batch-size, and 100 is number of epochs and 0.0001 is learning parameter.
 
 # Citation
 If you use this code in your project/paper/research and would like to cite this work, please use the below.
 
 @article{akandeh2017simplified,
-	title="Simplified Long Short-term Memory Recurrent Neural Networks: part I.",
+	title="Simplified Long Short-term Memory Recurrent Neural Networks: part I",
 	author="Atra {Akandeh} and Fathi M. {Salem}",
 	journal="World Congress in Computer Science, Computer Engineering,
     \& Applied Computing",
@@ -39,7 +39,7 @@ If you use this code in your project/paper/research and would like to cite this 
 }
 
 @article{akandeh2017simplified,
-	title="Simplified Long Short-term Memory Recurrent Neural Networks: part II.",
+	title="Simplified Long Short-term Memory Recurrent Neural Networks: part II",
 	author="Atra {Akandeh} and Fathi M. {Salem}",
 	journal="World Congress in Computer Science, Computer Engineering,
     \& Applied Computing",
@@ -47,7 +47,7 @@ If you use this code in your project/paper/research and would like to cite this 
 }
 
 @article{akandeh2017simplified,
-	title="Simplified Long Short-term Memory Recurrent Neural Networks: part III.",
+	title="Simplified Long Short-term Memory Recurrent Neural Networks: part III",
 	author="Atra {Akandeh} and Fathi M. {Salem}",
 	journal="World Congress in Computer Science, Computer Engineering,
     \& Applied Computing",
